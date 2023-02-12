@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 :root{
   --cyan: hsl(179, 62%, 43%);
   --white: hsl(0, 0%, 100%);
@@ -17,6 +19,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
 }
 
 main {
@@ -111,7 +115,7 @@ span {
   font-size: 1.1rem;
 }
 .why-us-section p {
-  margin:  2px 0px;
+  margin:  5px 0px;
 
 }
 
@@ -125,6 +129,8 @@ span {
   color: hsl(228, 45%, 44%);
 }
 
+
+/* MEDIUM SIZE SCREEN STYLES */
 
 @media (max-width:1200px) {
 
@@ -148,6 +154,8 @@ span {
   }
 
 }
+
+/* PHONE SIZE SCREEN STYLES */
 @media (max-width:850px) {
   
   body {
